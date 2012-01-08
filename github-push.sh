@@ -1,5 +1,8 @@
 #!/bin/bash
 
+# @see
+# http://help.github.com/create-a-repo/
+
 CMDNAME=`basename $0`
 if [ $# -ne 2 ]; then
   echo "Usage: $CMDNAME file commit-message" 1>&2
