@@ -11,7 +11,7 @@ fi
 
 echo "## filename       : $1"
 echo "## commit-message : $2"
-echo "## repository-name: $2"
+echo "## repository-name: $3"
 
 git add $1
 git commit -m "$2"
