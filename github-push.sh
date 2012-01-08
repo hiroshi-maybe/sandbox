@@ -9,8 +9,8 @@ if [ $# -ne 2 ]; then
   exit 1
 fi
 
-echo $1
-echo $2
+echo "## filename      : $1"
+echo "## commit-message: $2"
 
 git add $1
 git commit -m "$2"
